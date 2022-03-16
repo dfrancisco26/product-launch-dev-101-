@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Space+Mono&display=swap');
+
+* {
+    --alloy-orange: #c4621cff;
+    --dim-gray: #746e69ff;
+    --smoky-black: #1d1412ff;
+    --sepia: #663611ff;
+    --camel: #ad956cff;
+}
+img {
+    width: 75%;
+    border: 2px solid var(--sepia)
+}
+
+body {
+    display: flex;
+    background-color: var(--dim-gray);
+    color: var(--smoky-black);
+    font-family: "Space Mono", monospace;
+    flex-direction: column;
+}
+
+ul {
+    border: 2px solid var(--alloy-orange);
+    width:300px;
+}
+
+@media (max-width: 600px)
+    flex-direction: column;
+}
+main,
+header {
+    width:100vw;
+    height:50vh;
+}
