@@ -26,5 +26,10 @@ ul {
 }
 
 .featureList {
-    color: var(--camel);
+    color: var();
 }
+
+.hide{
+    display: none;
+}
+
