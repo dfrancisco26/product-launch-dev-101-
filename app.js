@@ -5,11 +5,12 @@ console.log (`Hello ${myName}`);
 
 const button = document.getElementById('button');
 button.addEventListener('click', ()=>{
-//store the element with id email-inputs
-    // add the class "hide" to the element
-// with an id of email-inputs
-// remove the class "hide" from the element with id thank-you
-//
+//button.addEventListener('click', ()=>{
+    const inputs = document.getElementById('email-inputs');
+    inputs.classList.toggle('hide');
+    const thankYou = document.getElementById('thank-you');
+    thankYou.classList.toggle('hide');
+
 });
 
 
